@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@import '../node_modules/alertifyjs/build/css/alertify.min.css';
+
+.success-snackbar{
+    background-color: green !important;
+    color: white !important;
+}
+.danger-snackbar{
+    background-color: darkred !important;
+    color: white !important;
+}
+.warning-snackbar{
+    background-color: orangered !important;
+    color: white !important;
+}
+.message-snackbar{
+    background-color: royalblue !important;
+    color: white !important;
+}
